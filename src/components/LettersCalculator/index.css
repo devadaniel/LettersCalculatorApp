@@ -1,0 +1,109 @@
+/* Write your code here. */
+
+.app-container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 100px;
+    margin-top: 150px;
+    max-width: 100px;
+    padding-left: 15px;
+    order: 0;
+  }
+
+  .stop-watch-image {
+    width: 290px;
+    order: 1;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.stop-watch-image {
+  width: 290px;
+}
+
+@media screen and (min-width: 768px) {
+  .stop-watch-image {
+    max-width: 500px;
+    margin-top: 100px;
+  }
+}
+
+.input-label {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.input-box {
+  height: 45px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 800;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  max-width: 300px;
+  min-width: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .count-letters {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 40px;
+    color: #219a6f;
+    font-family: 'Roboto';
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 250px;
+  }
+}
+
+.count-letters {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 40px;
+  color: #219a6f;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 30px;
+}
